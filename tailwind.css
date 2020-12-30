@@ -6,7 +6,7 @@
 ***********************************************************************************************/
 
 select, input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea, .selectContainer {
-  @apply text-sm rounded-lg border-none cursor-pointer bg-white text-gray-800 !important;
+  @apply text-sm rounded-sm border-none cursor-pointer text-white bg-gray-800 !important;
 }
 
 select, input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea {

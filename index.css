@@ -200,7 +200,8 @@ select { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button {
+button,
+[type='button'] {
   -webkit-appearance: button;
 }
 
@@ -511,6 +512,10 @@ video {
 }
 
 
+      [type='url'],
+      [type='number'],
+      [type='date'],
+      [type='time'],
       textarea,
       select
      {
@@ -529,7 +534,7 @@ video {
   line-height: 1.5rem;
 }
 
- textarea:focus, select:focus {
+ [type='url']:focus, [type='number']:focus, [type='date']:focus, [type='time']:focus, textarea:focus, select:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
@@ -565,6 +570,20 @@ select {
   padding-right: 2.5rem;
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
+}
+
+[type='file'] {
+  background: unset;
+  border-color: inherit;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-size: unset;
+  line-height: inherit;
+}
+
+[type='file']:focus {
+  outline: 1px auto -webkit-focus-ring-color;
 }
 
 .bg-gray-50 {
@@ -1228,14 +1247,14 @@ select {
 
 select, input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea, .selectContainer {
   --tw-bg-opacity: 1 !important;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
-  border-radius: 0.5rem !important;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity)) !important;
+  border-radius: 0.125rem !important;
   border-style: none !important;
   cursor: pointer !important;
   font-size: 0.875rem !important;
   line-height: 1.25rem !important;
   --tw-text-opacity: 1 !important;
-  color: rgba(31, 41, 55, var(--tw-text-opacity)) !important;
+  color: rgba(255, 255, 255, var(--tw-text-opacity)) !important;
 }
 
 select, input[type="text"], input[type="email"], input[type="password"], input[type="number"], textarea {
