@@ -1343,7 +1343,7 @@ input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="p
   --tw-text-opacity: 1;
   color: rgba(229, 231, 235, var(--tw-text-opacity));
   transform: scale(1.01);
-  outline: 1px dashed rgba(0, 0, 0, .25);
+  outline: 1px dashed rgba(255, 255, 255, .25);
   outline-offset: 5px;
 }
 
