@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
   width: 100%;
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Langar', cursive;
 }
 
 body {
