@@ -68,7 +68,3 @@ body {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
-
-.bg-pattern {
-  background-image: url(./images/endless-clouds.svg);
-}
