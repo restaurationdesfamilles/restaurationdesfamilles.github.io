@@ -1519,6 +1519,10 @@ input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="p
     height: 16rem;
   }
 
+  .sm\:h-auto {
+    height: auto;
+  }
+
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1709,6 +1713,10 @@ input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="p
   .lg\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
   }
 
   .lg\:w-2\/5 {
